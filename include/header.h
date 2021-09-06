@@ -5,8 +5,8 @@ bool get_events(int,void(*)());
 void trigger_event(int);
 
 
-#define set_bit(n,k) (n)=(n)|(1<<(k-1))
-#define get_bit(n,k) (n)&(1<<(k-1))
+#define set_bit(num,bit) (num)=(num)|(1<<(bit-1))
+#define get_bit(num,bit) (num)&(1<<(bit-1))
 
 int module_init();
 
